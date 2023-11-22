@@ -1,0 +1,67 @@
+
+
+//FOTO HOME//
+.fotoIndex {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    
+}
+
+
+
+
+/* GALERIA DE FOTOS */
+.galeria {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.galeria{
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.1);
+  }
+
+.abrazo {
+    display: flex;
+    width: 100%;
+    height: 45rem;
+    justify-content: center;
+
+
+}
+
+
+
+.fotoCompa {
+    width: 100%;
+}
+
+
+//WHATSAPP FLOTANTE//
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+  }
+  
+  .whatsapp-float i {
+    margin-top: 16px;
+  }

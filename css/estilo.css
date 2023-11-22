@@ -1,0 +1,252 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* TÍTULOS RESPONSIV */
+h1 {
+  font-size: 6vw;
+  color: black;
+  text-align: center;
+  border-radius: 35%;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 3, 5vw;
+  color: white;
+  text-align: center;
+}
+
+.subtituloCompa {
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+
+/* PÁRRAFOS */
+.conocenos {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.primerParrafo {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(246, 239, 230);
+}
+
+body {
+  background-color: darkred;
+}
+
+.imagenCompa {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+}
+
+.textoPagCompa {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.cuerpos {
+  color: white;
+}
+
+.compañia {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.3rem;
+}
+
+.tituloQuienes {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.somos {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.sopranos {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* HEADER */
+.fondoClaro {
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+}
+
+.logoCompa {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+/* BARRA DE NAVEGACIÓN */
+#navbarNavDropdown {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.navCompa {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.mapitaCompa {
+  padding: 3rem;
+}
+
+/* FORMULARIO */
+.formularioCompa {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.botoncito {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.boton {
+  background-color: rgb(231, 231, 216);
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: rgb(186, 27, 27);
+}
+
+.emailCompa,
+.grupos,
+.textoForm,
+.numerosEjemplo {
+  margin-top: 1.5rem;
+}
+
+/* FOOTER */
+footer .container {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-bottom: 15px;
+}
+
+.textoFooter {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.redesSociales a i {
+  color: whitesmoke;
+}
+
+.fotoIndex {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/* GALERIA DE FOTOS */
+.galeria {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.galeria {
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
+.abrazo {
+  display: flex;
+  width: 100%;
+  height: 45rem;
+  justify-content: center;
+}
+
+.fotoCompa {
+  width: 100%;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-float i {
+  margin-top: 16px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,49 @@
+//MAPA RESPONSIVE//
+.mapitaCompa {
+    padding: 3rem;
+    // margin-top: auto;
+
+}
+
+
+
+/* FORMULARIO */
+.formularioCompa {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.botoncito {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.boton {
+    background-color: rgb(231, 231, 216);
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: rgb(186, 27, 27);
+}
+
+.emailCompa,
+.grupos,
+.textoForm,
+.numerosEjemplo {
+    margin-top: $espacioForm;
+}
